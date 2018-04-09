@@ -1,0 +1,49 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+#question {
+  width: 100vh;
+  padding: 0px 50px;
+  height: 30px;
+  border-radius: 3px;
+  font-size:18px;
+}
+
+#submit {
+  height: 35px;
+  border-radius: 3px;
+  background-color: #3379B7;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+
+.card {
+  margin: 20px;
+  padding: 10px;
+  font-size:18px;
+  border-left: 5px solid #DDDDDD;
+}
+
+a {
+  text-decoration: none;
+  color: #7BC0E7;
+  font-size: 20px;
+
+  &:hover {
+  color: #15628c;
+  }
+}
+
+#response {
+  background-color: #FFFEE1;
+}
